@@ -75,26 +75,6 @@
             }
             
             mysqli_close($link);
-        
-            /*$id = 2;
-            $query = "INSERT INTO publications
-            VALUES(NULL, $id, 'Тройной удар по британской гордости', 'https://warspot.ru/2925-troynoy-udar-po-britanskoy-gordosti', CURRENT_DATE())";
-            $result = mysqli_query($link, $query) or die("Ошибка " . mysqli_error($link)); 
-            if($result)
-            {
-                echo "Выполнение запроса прошло успешно";
-            }*/
-        
-        
-            //$addr = $_SERVER['REMOTE_ADDR']; // INET_ATON($addr)
-            
-            /*$query = "INSERT INTO registrated_authors 
-            VALUES(2, 'Клим Жуков', 'passKZ', INET_ATON('192.168.0.4'), NOW())";
-            $result = mysqli_query($link, $query) or die("Ошибка " . mysqli_error($link)); 
-            if($result)
-            {
-                echo "Выполнение запроса прошло успешно";
-            }*/
         ?>
     </body>
 </html>
